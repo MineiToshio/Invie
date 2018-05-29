@@ -1,3 +1,9 @@
+WebFont.load({
+  google: {
+      families: ['Allerta', 'Montserrat:400,700']
+  }
+});
+
 var consulta = window.matchMedia('(max-width: 500px)');
 var $burgerButton = document.getElementById("burger-button");
 var $menu = document.getElementById("menu");
