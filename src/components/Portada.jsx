@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import {connect} from "react-redux";
 import { CSSTransitionGroup } from 'react-transition-group';
-import Heart from "./Heart";
+import Heart from "./Heart.jsx";
 
 function mapStateToProps(state) {
   return {
